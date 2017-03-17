@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>gRecipes!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">gRecipes!</a>
+          <ul class="nav nav-sidebar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./featured.html">Top-Rated</a></li>
+            <li class="active"><a href="#">Add Recipe</a></li>
+            <li><a href="./ingredients.html">Ingredients</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-sm-9 main">
+          <p>Name of Recipe: </p>
+          <input id="rname"></input>
+          <p>Your e-mail:</p>
+          <input id="user"></input>
+          <div class="recipe">
+            <ul class="ingredients">
+              Ingredients:
+            </ul>
+            <ul>
+            <button id="newing">New Ingredient</button>
+          </ul>
+            <ol class="steps">
+            </ol>
+            <ul><button id="addstep">New Step</button>
+            </ul>
+          </div>
+          <button class="submit">Submit</button>
+        </div>
+        </div>
+      </div>
+    <footer class="footer"><p class="copy">gRecipes!</p>
+    </footer>
+
+  </body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./scripts/add.js"></script>
+</html>
